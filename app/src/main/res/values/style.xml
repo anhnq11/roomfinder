@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ct_button" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@android:color/black</item>
+    </style>
+    <style name="ct_button2" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">#1ADEF4</item>
+    </style>
+</resources>
