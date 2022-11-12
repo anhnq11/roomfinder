@@ -3,21 +3,26 @@
     <item
         android:id="@+id/pageTrangChu"
         android:enabled="true"
-        android:icon="@drawable/ic_home"
+        android:icon="@drawable/ic_user"
         android:title=""/>
     <item
         android:id="@+id/pageSanPham"
         android:enabled="true"
-        android:icon="@drawable/ic_coffee"
+        android:icon="@drawable/img_heart"
         android:title=""/>
     <item
         android:id="@+id/pageBanHang"
         android:enabled="true"
-        android:icon="@drawable/ic_store"
+        android:icon="@drawable/img_home"
         android:title=""/>
     <item
         android:id="@+id/pageTaiKhoan"
         android:enabled="true"
-        android:icon="@drawable/ic_user"
+        android:icon="@drawable/ic_chat"
+        android:title=""/>
+    <item
+        android:id="@+id/pageMore"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_dehaze_24"
         android:title=""/>
 </menu>

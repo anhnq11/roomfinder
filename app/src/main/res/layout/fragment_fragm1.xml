@@ -33,6 +33,30 @@
         android:layout_height="wrap_content"
         android:text="Sửa thông tin khách"/>
 
+    <Button
+        android:id="@+id/btnDanhSachChu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách chủ"/>
+
+    <Button
+        android:id="@+id/btnDanhSachKhach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="danh sách khách"/>
+
+    <Button
+        android:id="@+id/btnDanhSachPChu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh sách phòng của chủ"/>
+
+    <Button
+        android:id="@+id/btnDanhSachPKhach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh sách phòng của khách"/>
+
 
 
 </LinearLayout>

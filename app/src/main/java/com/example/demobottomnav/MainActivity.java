@@ -2,9 +2,12 @@ package com.example.demobottomnav;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.res.ColorStateList;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -13,12 +16,12 @@ import com.example.demobottomnav.Fragment.Fragm1;
 import com.example.demobottomnav.Fragment.Fragm2;
 import com.example.demobottomnav.Fragment.Fragm3;
 import com.example.demobottomnav.Fragment.Fragm4;
+import com.example.demobottomnav.Fragment.Fragm5;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener{
 
     BottomNavigationView bottomNavigationView;
-    View view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +32,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
         bottomNavigationView.setSelectedItemId(R.id.pageTrangChu);
         loadFragment(new Fragm1());
+
     }
 
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -51,6 +55,11 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
             case R.id.pageTaiKhoan:
                 fragment = new Fragm4();
+                loadFragment(fragment);
+                return true;
+
+            case R.id.pageMore:
+                fragment = new Fragm5();
                 loadFragment(fragment);
                 return true;
         }

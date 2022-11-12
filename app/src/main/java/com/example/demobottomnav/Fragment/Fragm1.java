@@ -25,6 +25,14 @@ public class Fragm1 extends Fragment implements View.OnClickListener{
         btnThongTinKhach.setOnClickListener(this);
         Button btnSuaThongTinKhach = view.findViewById(R.id.btnSuaThongTinKhach);
         btnSuaThongTinKhach.setOnClickListener(this);
+        Button btnDanhSachChu = view.findViewById(R.id.btnDanhSachChu);
+        btnDanhSachChu.setOnClickListener(this);
+        Button btnDanhSachKhach = view.findViewById(R.id.btnDanhSachKhach);
+        btnDanhSachKhach.setOnClickListener(this);
+        Button btnDanhSachPChu = view.findViewById(R.id.btnDanhSachPChu);
+        btnDanhSachPChu.setOnClickListener(this);
+        Button btnDanhSachPKhach = view.findViewById(R.id.btnDanhSachPKhach);
+        btnDanhSachPKhach.setOnClickListener(this);
         return view;
     }
 
@@ -49,6 +57,26 @@ public class Fragm1 extends Fragment implements View.OnClickListener{
 
             case R.id.btnSuaThongTinKhach:
                 fragment = new FrgmSuaThongTinKhach();
+                loadFragment(fragment);
+                break;
+
+            case R.id.btnDanhSachChu:
+                fragment = new FrgmDsChu();
+                loadFragment(fragment);
+                break;
+
+            case R.id.btnDanhSachKhach:
+                fragment = new FrgmDsKhach();
+                loadFragment(fragment);
+                break;
+
+            case R.id.btnDanhSachPChu:
+                fragment = new FrgmDsPChu();
+                loadFragment(fragment);
+                break;
+
+            case R.id.btnDanhSachPKhach:
+                fragment = new FrgmDsPKhach();
                 loadFragment(fragment);
                 break;
         }
