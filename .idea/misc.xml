@@ -4,9 +4,13 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/drawable/botron_button.xml" value="0.2615" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/drawable/bottom_nav_color.xml" value="0.2955" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/drawable/ct_edittext.xml" value="0.2615" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/drawable/ct_toolbar.xml" value="0.1995" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/drawable/ic_back.xml" value="0.2615" />
-        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/drawable/ic_coffee.xml" value="0.2955" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/bottom_nav_layout.xml" value="0.371875" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_fragm1.xml" value="0.371875" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_fragm2.xml" value="0.371875" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_fragm3.xml" value="0.371875" />
@@ -15,11 +19,18 @@
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_fragm_sua_thong_tin_khach.xml" value="0.371875" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_fragm_thong_tin_chu.xml" value="0.33" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm1.xml" value="0.371875" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_ds_chu.xml" value="0.371875" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_ds_khach.xml" value="0.371875" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_ds_p_chu.xml" value="0.371875" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_ds_p_khach.xml" value="0.33" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_sua_thong_tin_chu.xml" value="0.33" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_sua_thong_tin_chu2.xml" value="0.371875" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_sua_thong_tin_khach.xml" value="0.371875" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_sua_thong_tin_khach2.xml" value="0.371875" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/fragment_frgm_thong_tin_khach.xml" value="0.371875" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/item_ds_nguoi.xml" value="0.371875" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/item_ds_phong.xml" value="0.33" />
+        <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/layout/toolbar_actionbar.xml" value="0.371875" />
         <entry key="..\:/My Document/FPT Polytechnic/K4_FA22/DuAn1/DemoBottomNav/app/src/main/res/menu/menu.xml" value="0.1" />
       </map>
     </option>

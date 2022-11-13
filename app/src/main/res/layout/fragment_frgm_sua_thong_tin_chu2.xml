@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/frameLayout2"
@@ -10,123 +10,29 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        >
-
-        <ImageView
-            android:id="@+id/icBackSuaThongTinChu2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_back"
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Thông Tin Chủ Trọ"
-            android:textColor="@color/black"
-            android:textStyle="bold"
-            android:textSize="22dp"
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="20dp"
-        android:gravity="center"
-        >
-
-        <ImageView
-            android:id="@+id/imgAnhChu"
-            android:layout_width="139dp"
-            android:layout_height="108dp"
-            android:layout_marginRight="15dp"
-            android:src="@drawable/img_user" />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center"
-            >
-
-            <TextView
-                android:id="@+id/txtTenChu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Phoebe Buffay"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="27dp"
-                />
-
-            <TextView
-                android:id="@+id/txtIdChu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="'@phoebebuffay"
-                android:textColor="#1ADEF4"
-                android:textSize="20dp"
-                />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:gravity="center">
-
-        <ImageView
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:src="@drawable/icon_upload" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingLeft="10dp"
-        android:paddingRight="10dp"
+        android:layout_height="match_parent"
         android:orientation="vertical"
         >
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"
             >
 
-            <TextView
-                android:layout_width="90dp"
+            <ImageView
+                android:id="@+id/icBackSuaThongTinChu2"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Họ và Tên"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:layout_marginRight="15dp"
+                android:src="@drawable/ic_back"
                 />
 
-            <EditText
-                android:id="@+id/edtSuaTtcHoTen2"
-                android:layout_width="match_parent"
+            <TextView
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Họ và tên chủ"
-                android:textColorHint="@color/greyClr"
+                android:text="Thông Tin Chủ Trọ"
                 android:textColor="@color/black"
-                android:paddingLeft="15dp"
-                android:background="@drawable/ct_edittext"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="22dp"
                 />
 
         </LinearLayout>
@@ -135,197 +41,299 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"
             android:gravity="center"
-            android:layout_marginBottom="15dp"
             >
 
-            <TextView
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:text="Giới Tính"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="18dp"
+            <ImageView
+                android:id="@+id/imgAnhChu"
+                android:layout_width="139dp"
+                android:layout_height="108dp"
                 android:layout_marginRight="15dp"
-                />
+                android:src="@drawable/img_user" />
 
-            <EditText
-                android:id="@+id/edtSuaTtcGioiTinh2"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:hint="Giới Tính"
-                android:textColorHint="@color/greyClr"
-                android:textColor="@color/black"
-                android:paddingLeft="15dp"
-                android:background="@drawable/ct_edittext"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                />
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:id="@+id/txtTenChu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Phoebe Buffay"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="27dp"
+                    />
+
+                <TextView
+                    android:id="@+id/txtIdChu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="'@phoebebuffay"
+                    android:textColor="#1ADEF4"
+                    android:textSize="20dp"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"
-            >
+            android:layout_marginBottom="20dp"
+            android:gravity="center">
 
-            <TextView
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:text="Gmail"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:layout_marginRight="15dp"
-                />
-
-            <EditText
-                android:id="@+id/edtSuaTtcGmail2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Gmail"
-                android:textColorHint="@color/greyClr"
-                android:textColor="@color/black"
-                android:paddingLeft="15dp"
-                android:background="@drawable/ct_edittext"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                />
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/icon_upload" />
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:orientation="vertical"
             >
 
-            <TextView
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:text="SĐT"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:layout_marginRight="15dp"
-                />
-
-            <EditText
-                android:id="@+id/edtSuaTtcSDT2"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Số điện thoại"
-                android:textColorHint="@color/greyClr"
-                android:textColor="@color/black"
-                android:paddingLeft="15dp"
-                android:background="@drawable/ct_edittext"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                />
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Họ và Tên"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/edtSuaTtcHoTen2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Họ và tên chủ"
+                    android:textColorHint="@color/greyClr"
+                    android:textColor="@color/black"
+                    android:paddingLeft="15dp"
+                    android:background="@drawable/ct_edittext"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Giới Tính"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/edtSuaTtcGioiTinh2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Giới Tính"
+                    android:textColorHint="@color/greyClr"
+                    android:textColor="@color/black"
+                    android:paddingLeft="15dp"
+                    android:background="@drawable/ct_edittext"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Gmail"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/edtSuaTtcGmail2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Gmail"
+                    android:textColorHint="@color/greyClr"
+                    android:textColor="@color/black"
+                    android:paddingLeft="15dp"
+                    android:background="@drawable/ct_edittext"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="SĐT"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/edtSuaTtcSDT2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Số điện thoại"
+                    android:textColorHint="@color/greyClr"
+                    android:textColor="@color/black"
+                    android:paddingLeft="15dp"
+                    android:background="@drawable/ct_edittext"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tỉnh/TP"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/edtSuaTtcTinh2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Tỉnh/TP"
+                    android:textColorHint="@color/greyClr"
+                    android:textColor="@color/black"
+                    android:paddingLeft="15dp"
+                    android:background="@drawable/ct_edittext"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginBottom="15dp"
+                >
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:text="Địa Chỉ"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:layout_marginRight="15dp"
+                    />
+
+                <EditText
+                    android:id="@+id/edtSuaTtcDiaChi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Địa chỉ"
+                    android:textColorHint="@color/greyClr"
+                    android:textColor="@color/black"
+                    android:paddingLeft="15dp"
+                    android:background="@drawable/ct_edittext"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+
+            </LinearLayout>
 
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
             android:gravity="center"
-            android:layout_marginBottom="15dp"
-            >
+            android:orientation="horizontal">
 
-            <TextView
-                android:layout_width="90dp"
+            <Button
+                android:id="@+id/btnLuuTtc"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
-                android:text="Tỉnh/TP"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:layout_marginRight="15dp"
-                />
+                android:background="@drawable/botron_button"
+                android:text="Lưu"
+                android:textAllCaps="false"
+                android:textSize="23dp"
+                app:backgroundTint="#1ADEF4"
+                android:layout_marginRight="20dp"/>
 
-            <EditText
-                android:id="@+id/edtSuaTtcTinh2"
-                android:layout_width="match_parent"
+            <Button
+                android:id="@+id/btnKhoiPhucTtc"
+                android:layout_width="170dp"
                 android:layout_height="wrap_content"
-                android:hint="Tỉnh/TP"
-                android:textColorHint="@color/greyClr"
-                android:textColor="@color/black"
-                android:paddingLeft="15dp"
-                android:background="@drawable/ct_edittext"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center"
-            android:layout_marginBottom="15dp"
-            >
-
-            <TextView
-                android:layout_width="90dp"
-                android:layout_height="wrap_content"
-                android:text="Địa Chỉ"
-                android:textColor="@color/black"
-                android:textStyle="bold"
-                android:textSize="18dp"
-                android:layout_marginRight="15dp"
-                />
-
-            <EditText
-                android:id="@+id/edtSuaTtcDiaChi2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Địa chỉ"
-                android:textColorHint="@color/greyClr"
-                android:textColor="@color/black"
-                android:paddingLeft="15dp"
-                android:background="@drawable/ct_edittext"
-                android:paddingTop="5dp"
-                android:paddingBottom="5dp"
-                />
+                android:background="@drawable/botron_button"
+                android:text="Khôi phục"
+                android:textAllCaps="false"
+                android:textSize="23dp"
+                app:backgroundTint="@color/black" />
 
         </LinearLayout>
 
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/btnLuuTtc"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/botron_button"
-            android:text="Lưu"
-            android:textAllCaps="false"
-            android:textSize="23dp"
-            app:backgroundTint="#1ADEF4"
-            android:layout_marginRight="20dp"/>
-
-        <Button
-            android:id="@+id/btnKhoiPhucTtc"
-            android:layout_width="170dp"
-            android:layout_height="wrap_content"
-            android:background="@drawable/botron_button"
-            android:text="Khôi phục"
-            android:textAllCaps="false"
-            android:textSize="23dp"
-            app:backgroundTint="@color/black" />
-
-    </LinearLayout>
-
-</LinearLayout>
+</ScrollView>
