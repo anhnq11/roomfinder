@@ -33,6 +33,8 @@ public class Fragm1 extends Fragment implements View.OnClickListener{
         btnDanhSachPChu.setOnClickListener(this);
         Button btnDanhSachPKhach = view.findViewById(R.id.btnDanhSachPKhach);
         btnDanhSachPKhach.setOnClickListener(this);
+        Button btnSuaPhong = view.findViewById(R.id.btnSuaPhong);
+        btnSuaPhong.setOnClickListener(this);
         return view;
     }
 
@@ -77,6 +79,11 @@ public class Fragm1 extends Fragment implements View.OnClickListener{
 
             case R.id.btnDanhSachPKhach:
                 fragment = new FrgmDsPKhach();
+                loadFragment(fragment);
+                break;
+
+            case R.id.btnSuaPhong:
+                fragment = new FrgmSuaPhong();
                 loadFragment(fragment);
                 break;
         }

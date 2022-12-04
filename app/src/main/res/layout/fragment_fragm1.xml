@@ -57,6 +57,12 @@
         android:layout_height="wrap_content"
         android:text="Danh sách phòng của khách"/>
 
+    <Button
+        android:id="@+id/btnSuaPhong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sửa phòng"/>
+
 
 
 </LinearLayout>
